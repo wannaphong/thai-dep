@@ -14,11 +14,13 @@ for tokenlist in parse_incr(data_file):
  wordlist=[]
  head=[]
  deps=[]
+ tag=[]
  for count, item in enumerate(tokenlist):
   wordlist.append(item["form"])
+  tag.append(item["upostag"])
   head.append(int(item["head"]))
   deps.append(is_root(item["deprel"]))
- TRAIN_DATA.append((" ".join(wordlist),{"heads":head,"deps":deps},),)#,
+ TRAIN_DATA.append((" ".join(wordlist),{"heads":head,"deps":deps},),)#,,"tags":tag
 
 def get_data():
  return TRAIN_DATA

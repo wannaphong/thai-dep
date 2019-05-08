@@ -7,6 +7,8 @@ model or a blank model. For more details, see the documentation:
 
 Compatible with: spaCy v2.0.0+
 Last tested with: v2.1.0
+
+code from https://github.com/explosion/spaCy/blob/master/examples/training/train_parser.py
 """
 from __future__ import unicode_literals, print_function
 
