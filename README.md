@@ -4,7 +4,7 @@
 
 Google Colab : https://colab.research.google.com/drive/18yl-XHCNVUuObyzyoZOpkjJ1B1wDYfKJ
 
-**This project is a trial project. It is not recommended for actual use. **
+**This project is a trial project. It is not recommended for actual use.**
 
 I use the parallel universal dependencies (PUD) treebanks for train dataset. https://github.com/UniversalDependencies/UD_Thai-PUD
 
